@@ -1,0 +1,32 @@
+{
+  "name": "incoming-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WizyRoom/incoming-webhook.git"
+  },
+  "keywords": [
+    "webhook",
+    "bot"
+  ],
+  "author": "wizy.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WizyRoom/incoming-webhook/issues"
+  },
+  "homepage": "https://github.com/WizyRoom/incoming-webhook#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "@google-cloud/datastore": "^0.1.1",
+    "body-parser": "^1.15.2",
+    "nconf": "^0.8.4",
+    "nodemailer": "^2.6.4",
+    "request": "^2.75.0"
+  }
+}
